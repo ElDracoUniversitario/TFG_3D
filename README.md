@@ -62,7 +62,7 @@ disable_splash=1
 Para eliminar los mensajes de Boot, lo que haremos será "camuflarlos", los enviaremos a la TTy número 6, modificando el cmdline.txt:
 
 ```
-sudo nano /boot/cmdline.txt
+$ sudo nano /boot/cmdline.txt
 ```
 y susbtituimos:
 
@@ -87,6 +87,10 @@ de esta manera eliminamos warnings, el logo de raspberry y el cursor que parpade
 
 Seguidos todos estos pasos, no deberí haber ningún elemento en pantalla, quedando el FrameBuffer libre para editarlo.
 
+## Imagenes por pantalla
+
+
+
 ```
 
 $ cd Assignment-01/external/glfw-3.0.3
@@ -99,10 +103,6 @@ $ cmake ..
 $ make all
 ```
 
-I've used CLion IDE for running and debugging, so the execution could be done using the graphical interface of the IDE.
-
-
-## Mesh Simplification
 
 
 
